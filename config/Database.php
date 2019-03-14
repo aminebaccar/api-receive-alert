@@ -1,9 +1,9 @@
 <?php
   class Database {
-    private $host = 'localhost';
-    private $db_name = 'gestionpreventionincendie';
-    private $username = 'root';
-    private $password = '';
+    private $host = 'api.tangorythm.com';
+    private $db_name = 'sdi';
+    private $username = 'sdiuser';
+    private $password = 'Sdi2019user';
     private $conn;
 
     public function connect() {
